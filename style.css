@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    font-family:Open Sans;
+}
+.textC-gold{
+    color: #FD6E0A;
+}
+.textC-dark2{
+    color: #FD6E0A;
+}
+.textC-dark1{
+    color: #181818;
+}
+header{
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    margin-bottom: 130px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 150px;
+}
+.nav-title{
+    font-size: 35px;
+    font-weight: 800;
+}
+ul {
+    display: flex;
+    align-items: center;
+}
+ul li{
+    margin: 0 10px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+.bttn-primary{
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+/* banner */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 150px;
+}
+.banner-sub-titel{
+    font-size: 40px;
+}
+.banner-titel{
+    font-size: 85px;
+}
+.banner p{
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.banner img{
+    margin-left: 10px;
+}
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0 150px;
+    text-align: center;
+    
+}
+/* about-saction */
+.about-saction{
+    background-color: #FFF8F3;
+    padding: 100px;
+    border-radius: 15px;
+}
+.about-saction h3{
+    margin: 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.about-saction p{
+    color: #757575;
+    margin-bottom: 10px;
+}
