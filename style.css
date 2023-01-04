@@ -2,15 +2,7 @@
     margin: 0;
     font-family:Open Sans;
 }
-.textC-gold{
-    color: #FD6E0A;
-}
-.textC-dark2{
-    color: #FD6E0A;
-}
-.textC-dark1{
-    color: #181818;
-}
+
 header{
     background-color: #FFF8F3;
     background-image: url(images/header_bg.png), url(images/developer.png);
@@ -77,7 +69,7 @@ main{
 /* about-saction */
 .about-saction{
     background-color: #FFF8F3;
-    padding: 100px;
+    padding: 30px;
     border-radius: 15px;
 }
 .about-saction h3{
@@ -88,4 +80,96 @@ main{
 .about-saction p{
     color: #757575;
     margin-bottom: 10px;
+}
+/* about info */
+.about-info-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-info-container .info-dris{
+    color:#181818 ;
+    font-weight: 800;
+}
+
+/* what i do section  */
+.service{
+    margin-top: 10px;
+}
+
+.section-title{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.skils-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    
+}
+.skill{
+    width: 260px;
+    text-align: start;
+    border-radius: 10px;
+    box-shadow: #b19a9a5e 6px 1px 7px 4px;
+}
+.skill img{
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+.skill-title{
+    color: #181818;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 12px 0;
+}
+/* <!-- Resume Section --> */
+.resume-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+
+}
+.education{
+    margin-right: 10px;
+}
+.resume-title{
+    font-size: 30px;
+    font-weight: 800;
+    color: #474747;
+    margin: 20px 0;
+}
+.title{
+    margin: 10px 0;
+    font-size: 21px;
+    color: #474747;
+}
+.sub-title{
+    color: #757575;
+    margin-bottom: 5px;
+}
+.description{
+    color: #757575;
+    margin-bottom: 10px;
+}
+
+/* <!-- contact section --> */
+footer{
+    background-color: #FFF8F3;
+}
+
+
+
+
+.textC-gold{
+    color: #FD6E0A;
+}
+.textC-dark2{
+    color: #FD6E0A;
+}
+.textC-dark1{
+    color: #181818;
 }
