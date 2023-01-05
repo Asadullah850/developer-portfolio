@@ -41,6 +41,15 @@ ul li a{
     padding: 15px;
     font-size: 20px;
 }
+.bttn-contact{
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    color: #FD6E0A;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 800;
+
+}
 .bttn-primary i{
     padding-right: 8px;
 }
@@ -54,7 +63,8 @@ ul li a{
     font-size: 40px;
 }
 .banner-titel{
-    font-size: 85px;
+    font-size: 50px;
+    text-transform: uppercase;
 }
 .banner p{
     font-style: italic;
