@@ -9,6 +9,7 @@ header{
     background-repeat: no-repeat;
     background-position: bottom right, left;
     margin-bottom: 130px;
+    background-size: auto 80%;
 }
 nav{
     display: flex;
@@ -39,6 +40,9 @@ ul li a{
     color: white;
     padding: 15px;
     font-size: 20px;
+}
+.bttn-primary i{
+    padding-right: 8px;
 }
 /* banner */
 .banner{
@@ -159,16 +163,33 @@ main{
 /* <!-- contact section --> */
 footer{
     background-color: #FFF8F3;
+    height: 600px;
 }
-
-
-
+.contact{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 100px;
+}
+.contact div img{
+    margin-top: 10px;
+}
+form input, textarea{
+    border: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.law{
+    text-align: center;
+}
 
 .textC-gold{
     color: #FD6E0A;
 }
 .textC-dark2{
-    color: #FD6E0A;
+    color: #474747;
 }
 .textC-dark1{
     color: #181818;
